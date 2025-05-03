@@ -1,2 +1,1 @@
-# hexlet-php
-Learning and testing PHP with Hexlet
+Мой первый проект на Хекслете
