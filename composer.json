@@ -1,0 +1,15 @@
+{
+    "name": "valentin/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Valentin\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Val",
+            "email": "lurc_zmei@inbox.ru"
+        }
+    ],
+    "require": {}
+}
