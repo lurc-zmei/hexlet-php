@@ -1,9 +1,9 @@
 {
     "name": "valentin/hexlet-php",
     "autoload": {
-        "psr-4": {
-            "Valentin\\HexletPhp\\": "src/"
-        }
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +11,7 @@
             "email": "lurc_zmei@inbox.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.13"
+    }
 }
