@@ -1,17 +1,23 @@
 {
     "name": "valentin/hexlet-php",
-    "autoload": {
-        "files": [
-            "src/Runner.php"
-        ]
-    },
     "authors": [
         {
             "name": "Val",
             "email": "lurc_zmei@inbox.ru"
         }
     ],
+    "scripts": {
+        "phpcs": "phpcs"
+    },
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "require": {
         "illuminate/collections": "^12.13"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0"
     }
 }
