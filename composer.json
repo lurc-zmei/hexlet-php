@@ -15,7 +15,8 @@
         ]
     },
     "require": {
-        "illuminate/collections": "^12.13"
+        "illuminate/collections": "^12.13",
+        "phploc/phploc": "^7.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.0"
